@@ -4,11 +4,13 @@
 #include <stdio.h>
 
 /* int main é a função principal */
-int main(){ // tem que abrir a funçãi { chaves } e tudo que estiver entre elas,
+int main(){ // tem que abrir a função { chaves } e tudo que estiver entre elas,
             //a função principal vai ser executado no programa.
 
     // "printf" é para imprimir
-    printf("hello, world!\n"); // \n é para pular linha
+    printf("hello, world!\n"); // \n é para pular linha (end line)
     return 0; //"return 0" se tiver tudo certo no programa vai retornar 0 e rodar
               //se algo estiver errado vai retornar 1
 }
+
+// comando "clear" para limpar o terminal //
