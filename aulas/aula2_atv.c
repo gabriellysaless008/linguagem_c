@@ -1,11 +1,19 @@
+//Gabrielly Sales
+
 #include <stdio.h>
 #include <stdbool.h>
 
 int main(){
-    int zero = 0;
+    int num1 = 4, num2 = 5, num3 = 8;
     float pi = 3.14;
-    char fruta = 'U'; 'V'; 'A';
-    bool verdadeiro = true;
+    char letra = 'U';
+    bool verdadeiro 
+    = true;
+
+    printf("Valor total de numeros:  %d, %d, %d\n", num1, num2, num3);
+    printf("Valor de pi:  %.2f\n", pi);
+    printf("Fruta: %c\n", letra);
+    printf("Verdadeiro: %d\n", verdadeiro);
 }
 
 
