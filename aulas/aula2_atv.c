@@ -14,5 +14,5 @@ int main(){
     printf("Nome: %c%c%c%c\n", letra1, letra2, letra3, letra4);
     printf("Teste: %d, %d, %d\n", verdadeiro, falso, neutro);
 
-    //return 0;
+    return 0;
 }

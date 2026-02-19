@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/escola/documents/linguagem_c",
-      "program": "c:/Users/escola/documents/linguagem_c/build/Debug/outDebug",
+      "cwd": "c:/Users/escola/Downloads",
+      "program": "c:/Users/escola/Downloads/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
