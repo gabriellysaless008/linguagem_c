@@ -1,8 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    printf ("# Exercicio 9 # \n");
-    int n9 = 100 , n10 = 80, n11 = 60 , n12 = 90;
-    float media = (n9 + n10 + n11 + n12) / 4;
-    printf("A media foi: %.1f", media);
+    int numero1, numero2;
+    printf("Digite o 1 numero:  \n");
+    scanf("%d", &numero1);
+    printf("Digite o 2 numero:  \n");
+    scanf("%d", &numero2);
+    int sub = numero1 - numero2;
+    printf("A diferenca entre os numeros sao: %d\n\n", sub);
+
+    return 0;
 }
