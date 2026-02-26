@@ -1,6 +1,6 @@
 //lista #2//
 
-#include <stdio.h>
+
 
 int main(){
     printf ("# Exercicio 1 #\n");
@@ -41,10 +41,9 @@ int main(){
     printf ("# Exercicio 8 # \n");
     float num;
     printf("Digite um numero ex(20.5):  \n");
-    scanf("%2.1f", &num);
+    scanf("%f", &num);
     float adicao = num + 10.5;
-    printf("%2.1f + %2.1f = %2.1f\n\n", adicao + 10.5);
-    printf("a soma foi de: %2.1f\n\n", adicao + 10.5);
+    printf("a soma e igual a: %.1f\n\n", adicao);
 
     printf ("# Exercicio 9 # \n");
     int n9 = 100 , n10 = 80, n11 = 60 , n12 = 90 ;
@@ -55,7 +54,7 @@ int main(){
 
 
 
-
+    return 0;
 
 
 
