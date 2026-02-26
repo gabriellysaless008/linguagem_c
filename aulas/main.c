@@ -1,13 +1,8 @@
 #include <stdio.h>
 
-int main(){ 
-    
-    printf ("# Exercicio 8 # \n");
-    float num;
-    printf("Digite um numero ex(20.5):  \n");
-    scanf("%f", &num);
-    float adicao = num + 10.5;
-    printf("a soma e igual a: %.1f\n\n", adicao);
-
-    return 0;
+int main(){
+    printf ("# Exercicio 9 # \n");
+    int n9 = 100 , n10 = 80, n11 = 60 , n12 = 90;
+    float media = (n9 + n10 + n11 + n12) / 4;
+    printf("A media foi: %.1f", media);
 }
