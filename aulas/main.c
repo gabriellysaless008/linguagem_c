@@ -1,15 +1,17 @@
 #include <stdio.h>
 
 int main(){ 
-printf( "Exercicio 4\n\n" );
-    int nlaranjas;
-    printf("Digite o numero de laranjas compradas: ");
-    scanf("%d", &nlaranjas);
-
-    if (nlaranjas <= 12){
-        printf("O total da compra foi:  %.2f", nlaranjas * 0.30);
+printf( "Exercicio 5\n\n" );
+    int n3, n4;
+    printf( "Insira o primeiro numero: " );
+    scanf( "%d", &n3 );
+    printf( "Insira o segundo numero: " );
+    scanf( "%d", &n4 );
+    if ( n3 > n4 ){
+        printf( "%d > %d", n3, n4 );
     }else{
-        printf("O total da compra foi:  %.2f", nlaranjas * 0.25);
-    }
+      printf ( "%d < %d", n4, n3 );
 
     }
+
+}
