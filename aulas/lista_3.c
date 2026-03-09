@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//lista #3//
+
     int main(){
     printf( "Exercicio 1\n\n" );
     int n1, n2;
@@ -127,7 +129,7 @@
     }else{
     printf ("o numero e impar\n\n");
     }
-    
+
     printf( "Exercicio 10\n\n" );
     int idade;
     printf("Insira sua idade:  ");
