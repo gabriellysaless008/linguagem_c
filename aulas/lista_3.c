@@ -119,6 +119,26 @@
     }
 
     printf( "Exercicio 9\n\n" );
+    int num;
+    printf("Insira um numero:  ");
+    scanf("%d", &num);
+    if (num % 2 == 0){
+    printf ("O numero e par");
+    }else{
+    printf ("o numero e impar\n\n");
+    }
+    
+    printf( "Exercicio 10\n\n" );
+    int idade;
+    printf("Insira sua idade:  ");
+    scanf ("%d", &idade);
+    if (idade <= 17){
+        printf ("E um bebe ainda");
+    }else if (idade <= 59){
+        printf ("E adulto ainda");
+    }else{
+        printf ("Ta velho ja");
+    }
 
     }
 
