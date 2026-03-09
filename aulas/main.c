@@ -1,17 +1,23 @@
 #include <stdio.h>
 
 int main(){ 
-printf( "Exercicio 5\n\n" );
-    int n3, n4;
-    printf( "Insira o primeiro numero: " );
-    scanf( "%d", &n3 );
-    printf( "Insira o segundo numero: " );
-    scanf( "%d", &n4 );
-    if ( n3 > n4 ){
-        printf( "%d > %d", n3, n4 );
-    }else{
-      printf ( "%d < %d", n4, n3 );
+printf( "Exercicio 8\n\n" );
+int nota1, nota2, nota3, nota4, media;
+printf("insira a primeira nota:  ");
+scanf("%d", &nota1);
+printf("insira a segunda nota:  ");
+scanf("%d", &nota2);
+printf("insira a terceira nota:  ");
+scanf("%d", &nota3);
+printf("insira a quarta nota:  ");
+scanf("%d", &nota4);
+media = (nota1 + nota2 + nota3 + nota4)/4;
+printf("A media foi: %d\n", media);
+if (media >= 70 ){
+    printf("Voce foi aprovado parabens!");
+}else{
+    printf("Voce foi reprovado!\n\n");
+}
 
-    }
 
 }
