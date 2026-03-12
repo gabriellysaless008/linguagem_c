@@ -142,6 +142,8 @@
         printf ("Ta velho ja");
     }
 
+    return 0;
+
     }
 
 
