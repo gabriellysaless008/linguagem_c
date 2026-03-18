@@ -144,6 +144,9 @@ int main(){
             printf("Preco, R$: 24.00\n");
             printf("Ingredientes: Molho, Salshicha, Carne, Frango, Bacon, Queijo, Caabresa, Catupiry, Milho, Alface, Batata.\n\n");
             break;
+        default:
+            printf("Opção invalida ou errada, digite outra!!!");
+            break;
     }
 
     printf("Exercicio 4\n\n");
@@ -169,7 +172,7 @@ int main(){
             printf("Voce escolheu a opcao: Eletronicos");
             break;
         default:
-            printf("Opcao invalida, escolha outra porvafor");
+            printf("Opcao invalida, escolha outra porfavor");
             break;
 
         
