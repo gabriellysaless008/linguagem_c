@@ -201,7 +201,7 @@ int main(){
             printf("A area foi de: %.2f\n", lado1 * lado2);
             printf("O perimetro foi de: %.2f\n\n", 4 * lado1);
             break;
-
+ 
         case 2:
             printf("// Retangulo //\n");
             printf("Informe a base: \n");
