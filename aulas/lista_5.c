@@ -33,6 +33,29 @@ int main(){
     int n;
     printf("Digite um numero:  ");
     scanf("%d", &n);
+    (n > 0) ? printf("valor positivo\n\n") : printf("valor negativo!\n\n");
+
+    printf("Exercicio 5\n\n");
+    int idade;
+    printf("Digite sua idade: \n");
+    scanf("%d", &idade);
+    (idade >= 18) ? printf("obrigatorio votar\n\n") : printf("nao e obrigatorio votar\n\n");
+
+    printf("Exercicio 6\n\n");
+    int n1, n2;
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &n1);
+    printf("Digite o segundo numero: ");
+    scanf("%d", &n2);
+    (n1 > n2) ? printf("%d, %d\n\n", n1, n2) : printf("%d, %d\n\n", n2, n1);
+
+    printf("Exercicio 7\n\n");
+    int salario;
+    printf("Insira seu salario: ");
+    scanf("%d", &salario);
+    (salario >= 2500) ? printf("Nao vai receber aumento") : printf("Vai receber aumento");
+
+    return 0;
 
 
 }
