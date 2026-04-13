@@ -62,7 +62,7 @@ int main(){
     printf("A diferenca entre os numeros sao: %d\n\n", sub);
 
     printf ("# Exercicio 11 # \n");
-     int mult1 = 5 * 1;
+    int mult1 = 5 * 1;
     int mult2 = 5 * 2;
     int mult3 = 5 * 3;
     int mult4 = 5 * 4;
