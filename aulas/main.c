@@ -1,38 +1,30 @@
 #include <stdio.h>
 
 int main(){
-    int tabuada;
-    char sn = 's';
-    printf("escolha o número da tabuada desejada (1-10): ");
-    scanf("%d", &tabuada);
-    
-    while()
-    
+    printf("Exercicio 7\n\n");
+    int num = num, divisor = 2;
+    int eprimo = 1;
 
-    
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &num);
 
-    
-    
+    if (num <= 1) {
+        eprimo = 0;
+    } else {
+        while (divisor <= num / 2) {
+            if (num % divisor == 0) {
+                eprimo = 0;
+                break;       
+                
+            }
+            divisor++;
+        }
+    }
 
+    if (eprimo == 1) {
+        printf("%d e um numero primo.\n", num);
+    } else {
+        printf("%d nao um numero primo.\n", num);
+    }
+ }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    return 0;
-    
-    
-    
- //int n1 = 1, n2 = 2, fibo = 10, temp;
-    
-    //printf("%d  ", n1);
-    //temp = n1;
-    //n1 = n2;
-    //n2 = temp + n1;
-
-    
-}
