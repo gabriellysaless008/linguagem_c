@@ -97,6 +97,35 @@ int main(){
         media = soma / cont;
         printf("Media final: %2.lf\n", media);
 
+    printf("exercicio 8\n");
+    int num;
+        while (num > 0){
+            printf("Digite um numero: \n");
+            scanf("%d", &num);
+            (num % 2 == 0) ? printf("O numero e par\n\n") : printf("O numero e impar\n\n");
+        }
+
+    printf("exercicio 10\n");
+    int numero_secreto, palpite, tentativas = 0;
+    numero_secreto = rand() % 100 + 1;
+
+    printf("Bem-vindo ao Jogo de Adivinhacao!\n");
+    printf("Eu escolhi um numero entre 1 e 100. Tente acertar!\n\n");
+
+        while(palpite != numero_secreto){
+        printf("Digite seu palpite: ");
+        scanf("%d", &palpite);
+        tentativas++;
+        if (palpite > numero_secreto) {
+            printf("Muito alto! Tente um numero menor.\n");
+        } else if (palpite < numero_secreto) {
+            printf("Muito baixo! Tente um numero maior.\n");
+        } else {
+            printf("\nParabens! Voce acertou em %d tentativas!\n", tentativas);
+        }
+
+      (palpite != numero_secreto);
+    }
 
     return 0;
     
