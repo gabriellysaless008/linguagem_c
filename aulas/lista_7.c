@@ -30,7 +30,7 @@ int main(){
     }
 
        
-    printf("Exercicio 4\n\n");
+    printf("Exercicio 4\n\n");+
     int valor, valor_maior = 0;
     for(int i = 1; i <= 10; i++){
         printf("Digite um valor: ");
@@ -71,6 +71,45 @@ int main(){
         }
 
     }
+
+    printf("Exercicio 7\n\n");
+    int valor, valor_par = 0, valor_impar = 0;
+    for(int i = 1; i <= 10; i++){
+        printf("Digite um valor: ");
+        scanf("%d", &valor);
+        if (valor % 2 == 0){
+            valor = valor_par;
+            valor_par++;
+            }else{
+                valor_impar++;
+                
+        }   
+    } 
+        printf("Numeros pares: %d\nNumeros impares: %d\n\n",valor_par, valor_impar);
+
+    printf("Exercicio 8\n\n");
+    int n = 0, num1 = 0, num2 = 1, proxnum;
+    printf("Digite o numero de termos: ");
+    scanf("%d", &n);
+    
+    for(int i = 0; i < n; i++){
+        printf("%d ", num1);
+        
+        proxnum = num1 + num2;
+        num1 = num2;
+        num2 = proxnum;
+    }
+        printf("Sequencia de Fibonacci (%d termos):\n", n); 
+
+    printf("Exercicio 9\n\n");
+    int nota = 0, media = 0, soma;
+    for(int i = 1; i <= 10; i++){
+        printf("Digite uma nota: ");
+        scanf("%d", &nota);
+        soma += nota;
+        media = soma / 10;
+
+    } printf("Sua media foi: %d", media);
      
     return 0;
 }
