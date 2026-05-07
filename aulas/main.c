@@ -1,16 +1,21 @@
 #include <stdio.h>
 
 int main(){
-  printf("Exercicio 1\n\n");
-    int vetor[5];
-    int soma = 0, numer;
-
-    for(int i = 0; i < 5; i++){
-        printf("Insira um valor: ");
-        scanf("%d", &numer);
-        soma += numer;
+    printf("Exercicio 8\n\n");
+   int vetor1[4], vetor2[4], soma[4];
+    printf("Digite os 4 numeros do primeiro vetor:\n");
+    for(int i = 0; i < 4; i++) {
+        scanf("%d", &vetor1[i]);
     }
-    printf("A soma foi de: %d\n", soma);
+    printf("Digite os 4 numeros do segundo vetor:\n");
+    for(int i = 0; i < 4; i++) {
+        scanf("%d", &vetor2[i]);
+    }
+    printf("\nVetor Resultante:\n");
+    for(int i = 0; i < 4; i++) {
+        soma[i] = vetor1[i] + vetor2[i];
+        printf("%d ", soma[i]);
+    }
 
 
 

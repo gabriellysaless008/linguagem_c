@@ -49,6 +49,80 @@ int main(){
 
     }
     printf("A quantidade de pares foi de: %d\n\n", pares);
+
+    printf("Exercicio 5\n\n");
+    int inv[7];
+    int valores = 0;
+
+    for (int i = 0; i < 7; i++){ 
+    printf("Digite um numero: ");
+    scanf("%d", &inv[i]);
+    }
+
+    printf("invertido:\n");
+    for(int i = 6; i >= 0; i--) {
+    printf("%d\n", inv[i]);
+    }
+
+    printf("\nexercicio 6:\n");
+    int vetor[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int buscado, b, posicao = -1;
+
+    printf("Vetor: ");
+    for (b = 0; b < 10; b++) {
+        printf("%d ", vetor[b]);
+    }
+    printf("\n");
+
+    printf("Digite o valor a ser buscado: ");
+    scanf("%d", &buscado);
+
+    for (b = 0; b < 10; b++) {
+        if (vetor[b] == buscado) {
+            posicao = b;
+            break;
+        }
+    }
+
+    printf("Posicao: %d\n", posicao);
+
+    printf("\nexercicio 7\n");
+    int vetorf[9] = {10, 5, 4, 20, 9, 4, 5, 29, 4};
+    int x = 4;
+
+    printf("original: ");
+    for (int s = 0; s < 9; s++) {
+        printf("%d ", vetorf[s]);
+    }
+
+    for (int s = 0; s < 9; s++) {
+        if (vetorf[s] == x) {
+            vetorf[s] = 0;
+        }
+    }
+
+    printf("\nmodificado (substitui %d por 0): ", x);
+    for (int s = 0; s < 9; s++) {
+        printf("%d ", vetorf[s]);  
+    }
+    printf("\n");
+
+    printf("Exercicio 8\n\n");
+   int vetor1[4], vetor2[4], soma[4];
+    printf("Digite os 4 numeros do primeiro vetor:\n");
+    for(int i = 0; i < 4; i++) {
+        scanf("%d", &vetor1[i]);
+    }
+    printf("Digite os 4 numeros do segundo vetor:\n");
+    for(int i = 0; i < 4; i++) {
+        scanf("%d", &vetor2[i]);
+    }
+    printf("\nVetor Resultante:\n");
+    for(int i = 0; i < 4; i++) {
+        soma[i] = vetor1[i] + vetor2[i];
+        printf("%d ", soma[i]);
+    }
+
      
     return 0;
 }
