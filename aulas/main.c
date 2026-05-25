@@ -1,27 +1,26 @@
 #include <stdio.h>
 
 int main(){
-    printf("Exercicio 8\n\n");
-   int vetor1[4], vetor2[4], soma[4];
-    printf("Digite os 4 numeros do primeiro vetor:\n");
-    for(int i = 0; i < 4; i++) {
-        scanf("%d", &vetor1[i]);
+printf("Exercicio 3\n\n");
+int matriz[4][4] = {{4, 3, 2, 1}, {2, 1, 5, 7}, {9, 8, 7, 6}, {2, 1, 4, 8}};
+for (int i = 0; i < 4; i++){
+    for (int j = 0; j < 4; j++){
+        printf("%d ", matriz[i][j]);
+        }
+        printf("\n");
     }
-    printf("Digite os 4 numeros do segundo vetor:\n");
-    for(int i = 0; i < 4; i++) {
-        scanf("%d", &vetor2[i]);
+    printf("\n");
+    printf("matriz * coluna:\n");
+    int k = 0;
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 3; j++){
+            printf("%d ", matriz[i][j] * matriz[0][k]);
+        }
+        k++;
+        printf("\n");
     }
-    printf("\nVetor Resultante:\n");
-    for(int i = 0; i < 4; i++) {
-        soma[i] = vetor1[i] + vetor2[i];
-        printf("%d ", soma[i]);
-    }
-
-
-
-
-
-}
+    printf("\n");
+}  
 
 
 

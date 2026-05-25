@@ -12,19 +12,19 @@ int main(){
     scanf("%d", &codigo_produto);
     switch(codigo_produto){
         case 1:
-            printf("Voce escolheu a opcao: Alimento nao-perecivel");
+            printf("Voce escolheu a opcao: Alimento nao-perecivel\n\n");
             break;
         case 2:
-            printf("Voce escolheu a opcao: Alimento perecivel");
+            printf("Voce escolheu a opcao: Alimento perecivel\n\n");
             break;
         case 3:
-            printf("Voce escolheu a opcao: Vestuario");
+            printf("Voce escolheu a opcao: Vestuario\n\n");
             break;
         case 4:
-            printf("Voce escolheu a opcao: Limpeza");
+            printf("Voce escolheu a opcao: Limpeza\n\n");
             break;
         default:
-            printf("Opcao invalida, escolha outra porfavor");
+            printf("Opcao invalida, escolha outra porfavor\n\n");
             break;
     }
 
@@ -35,13 +35,13 @@ int main(){
         
         switch(mes_ano){
             case 2:
-                printf("Mes com 28 ou 29 dias\n");
+                printf("Mes com 28 ou 29 dias\n\n");
                 break;
             case 4: case 6: case 9: case 11:
-                printf("Meses com 30 dias\n");
+                printf("Meses com 30 dias\n\n");
                 break;
             case 3: case 5: case 7: case 8: case 10: case 12:
-                printf("Meses com 31 dias\n");
+                printf("Meses com 31 dias\n\n");
                 break;
             default:
                 printf ("Error!!!\n\n");

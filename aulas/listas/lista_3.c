@@ -71,7 +71,6 @@
     }
 
     printf( "Exercicio 7\n\n" );
-    printf( "Exercicio 7\n\n" );
     int v1, v2, v3;
     printf( "Insira o primeiro numero: " );
     scanf( "%d", &v1 );
