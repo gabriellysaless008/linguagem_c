@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/escola/documents/linguagem_c/aulas/listas",
-      "program": "c:/Users/escola/documents/linguagem_c/aulas/listas/build/Debug/outDebug",
+      "cwd": "c:/Users/escola/documents/linguagem_c/c++",
+      "program": "c:/Users/escola/documents/linguagem_c/c++/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
