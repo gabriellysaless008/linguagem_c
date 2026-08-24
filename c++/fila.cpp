@@ -15,7 +15,23 @@ using namespace std;
 
 
 int main(){
-    char vetor[5] = {'B', 'C', 'D', 'E', 'F'};
+    queue<string> fila;//fila é o nome da variável(fila)
+   
+    if(fila.empty()){
+        cout << "Fila vazia" << endl;
+    } else{
+        cout << "Fila contem elementos" << endl;
+    }
+    
+    fila.push("Ruby");
+    fila.push("Brayan");
+    fila.push("Millenna");
 
+    cout << "Primeiro elemento: " << fila.front() << endl;
+    cout << "ultimo elemento: " << fila.back() << endl;
+    cout << "Tamanho da fila: " << fila.size() << endl;
+
+    fila.pop();
+    cout << "Primeiro elemento: " << fila.front() << endl;
     return 0;
 }
